@@ -1,0 +1,30 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - backend_data:/app/backend
+    environment:
+      NODE_ENV: development
+    command: ["npm", "run", "dev"]
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - frontend_data:/app/frontend
+    environment:
+      NODE_ENV: development
+    command: ["npm", "start"]
+
+volumes:
+  backend_data:
+  frontend_data:

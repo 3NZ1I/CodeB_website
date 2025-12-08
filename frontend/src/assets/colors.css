@@ -1,0 +1,9 @@
+/* Color Palette */
+:root {
+  --primary-color: #4facfe;
+  --secondary-color: #00f2fe;
+  --accent-color: #ff7f50;
+  --text-color: #333;
+  --background-color: #f4f4f4;
+  --white: #fff;
+}
