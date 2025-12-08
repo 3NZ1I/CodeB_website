@@ -3,9 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CodeB Website</title>
+  <meta name="theme-color" content="#4facfe">
+  <meta name="description" content="CodeB — Technology, Networking and Web Development services. Build, scale and secure your digital products.">
+  <meta name="keywords" content="CodeB, web development, app development, cloud, networking, technology">
+  <link rel="icon" href="/favicon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/favicon-512.png">
+  <link rel="manifest" href="/manifest.json">
+  <title>CodeB — Technology & Development</title>
 </head>
 <body>
   <div id="root"></div>
+  <script>
+    // register service worker for PWA (if available)
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/service-worker.js').catch(function(err) {
+          console.warn('Service worker registration failed:', err);
+        });
+      });
+    }
+  </script>
 </body>
 </html>

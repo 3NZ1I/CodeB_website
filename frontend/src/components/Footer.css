@@ -1,33 +1,33 @@
-/* Footer Styles */
+/* Footer Styles - luxurious */
 .footer {
-  background-color: var(--secondary-color);
-  color: var(--white);
+  background: linear-gradient(180deg, rgba(7,6,10,0.4), rgba(7,6,10,0.2));
+  color: var(--muted-text);
   text-align: center;
-  padding: 2rem 1rem;
-  margin-top: auto;
+  padding: 3rem 1rem 4rem;
+  border-top: 1px solid rgba(255,209,102,0.03);
 }
 
 .footer .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.social-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-  padding: 0;
-}
+.footer p { font-size: 0.98rem; color: var(--muted-text); }
+
+.social-links { list-style: none; display: flex; gap: 1rem; padding: 0; }
 
 .social-links a {
-  color: var(--white);
+  color: var(--gold);
   text-decoration: none;
-  font-size: 1.1rem;
-  transition: opacity 0.3s;
+  font-size: 1.05rem;
+  transition: transform 0.18s, opacity 0.18s;
+  box-shadow: 0 8px 30px rgba(255,209,102,0.03);
+  padding: 0.4rem;
+  border-radius: 8px;
 }
 
-.social-links a:hover {
-  opacity: 0.8;
-}
+.social-links a:hover { transform: translateY(-4px); opacity: 0.98; }

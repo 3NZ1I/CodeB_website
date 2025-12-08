@@ -1,9 +1,15 @@
-/* Color Palette */
+/* Luxurious Dark Palette */
 :root {
-  --primary-color: #4facfe;
-  --secondary-color: #00f2fe;
-  --accent-color: #ff7f50;
-  --text-color: #333;
-  --background-color: #f4f4f4;
-  --white: #fff;
+  --background-color: #07060a; /* deep charcoal */
+  --surface: rgba(255,255,255,0.03);
+  --panel: rgba(255,255,255,0.02);
+  --text-color: #f6f3ef; /* warm ivory */
+  --muted-text: #bfb7ae; /* soft taupe */
+  --gold: #FFD166; /* primary gold accent */
+  --gold-2: #FFC85C;
+  --accent-gradient: linear-gradient(90deg, var(--gold), var(--gold-2));
+  --primary-color: var(--gold);
+  --glass-border: rgba(255,209,102,0.06);
+  --soft-shadow: 0 12px 40px rgba(2,6,23,0.6);
+  --white: #ffffff;
 }

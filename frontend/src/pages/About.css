@@ -1,46 +1,36 @@
 /* About Page Styles */
 .about {
   padding: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.about-intro {
-  text-align: center;
-  margin-bottom: 2rem;
-}
+.about-intro { text-align: center; margin-bottom: 2rem; }
 
-.timeline {
-  margin-bottom: 2rem;
-}
+.timeline { margin-bottom: 2rem; }
 
-.timeline ul {
-  list-style: none;
-  padding: 0;
-}
+.timeline ul { list-style: none; padding: 0; }
 
-.timeline li {
-  margin-bottom: 1rem;
-}
+.timeline li { margin-bottom: 1rem; color: var(--muted-text); }
 
-.team {
-  text-align: center;
-}
+.team { text-align: center; }
 
 .team-members {
   display: flex;
   justify-content: center;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .member img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 10px 40px rgba(0,245,255,0.03);
+  border: 1px solid var(--glass-border);
 }
 
-.member h3 {
-  margin: 0.5rem 0 0.25rem;
-}
+.member h3 { margin: 0.5rem 0 0.25rem; color: var(--primary-color); }
 
-.member p {
-  margin: 0;
-}
+.member p { margin: 0; color: var(--muted-text); }

@@ -1,49 +1,26 @@
 /* Services Page Styles */
-.services {
-  padding: 2rem;
-  text-align: center;
-}
+.services { padding: 3rem 1rem; }
 
-.service-cards {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
+.page-container { max-width: 1200px; margin: 0 auto; }
 
-.card {
-  background-color: var(--white);
-  border: none;
-  border-radius: 15px;
-  padding: 0;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-  overflow: hidden;
-  max-width: 350px;
-  text-align: left;
-}
+.section-head { text-align: center; margin-bottom: 1.5rem; }
+.section-head .muted { color: var(--muted-text); margin-top: 0.5rem; }
 
-.card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-}
+.service-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; }
 
-.card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
+.card { border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; min-height: 380px; transition: transform 0.36s cubic-bezier(.17,.67,.29,1), box-shadow 0.36s; }
 
-.card-content {
-  padding: 1.5rem;
-}
+.card-media { height: 220px; background-size: cover; background-position: center; }
 
-.card h2 {
-  color: var(--primary-color);
-  margin-bottom: 0.5rem;
-  margin-top: 0;
-}
+.card-content { padding: 1.25rem 1.4rem; background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00)); border: 1px solid transparent; flex:1; display:flex; flex-direction:column; }
 
-.card p {
-  color: var(--text-color);
-}
+.card h3 { margin: 0 0 0.6rem; font-size: 1.25rem; color: var(--primary-color); }
+.card p { color: var(--muted-text); flex:1; }
+
+.card-actions { display:flex; gap:0.6rem; margin-top: 1rem; }
+.card .small-cta { background: linear-gradient(90deg, var(--gold), var(--gold-2)); color:#111; padding:0.6rem 0.9rem; border-radius:8px; border:none; font-weight:700; }
+.card .tertiary { background:transparent; color:var(--muted-text); border:1px solid rgba(255,255,255,0.03); padding:0.5rem 0.75rem; border-radius:8px; }
+
+.card:hover { transform: translateY(-10px); box-shadow: 0 28px 80px rgba(2,6,23,0.5); }
+
+@media (max-width:700px){ .card-media{ height:160px } }
