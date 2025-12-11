@@ -2,7 +2,7 @@
   "name": "codeb-frontend",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://3NZ1I.github.io/CodeB_website",
+  "homepage": "https://bessar.work",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
