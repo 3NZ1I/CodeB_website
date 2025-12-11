@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CodeB_website/static/css/main.920788d1.css",
+    "main.js": "/CodeB_website/static/js/main.ce190f1d.js",
+    "index.html": "/CodeB_website/index.html",
+    "main.920788d1.css.map": "/CodeB_website/static/css/main.920788d1.css.map",
+    "main.ce190f1d.js.map": "/CodeB_website/static/js/main.ce190f1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.920788d1.css",
+    "static/js/main.ce190f1d.js"
+  ]
+}

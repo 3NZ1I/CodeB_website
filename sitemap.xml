@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://bessar.work/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://bessar.work/about</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://bessar.work/services</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://bessar.work/portfolio</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://bessar.work/contact</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
