@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/CodeB_website/static/css/main.920788d1.css",
-    "main.js": "/CodeB_website/static/js/main.ce190f1d.js",
-    "index.html": "/CodeB_website/index.html",
-    "main.920788d1.css.map": "/CodeB_website/static/css/main.920788d1.css.map",
-    "main.ce190f1d.js.map": "/CodeB_website/static/js/main.ce190f1d.js.map"
+    "main.css": "/static/css/main.920788d1.css",
+    "main.js": "/static/js/main.ce190f1d.js",
+    "index.html": "/index.html",
+    "main.920788d1.css.map": "/static/css/main.920788d1.css.map",
+    "main.ce190f1d.js.map": "/static/js/main.ce190f1d.js.map"
   },
   "entrypoints": [
     "static/css/main.920788d1.css",
