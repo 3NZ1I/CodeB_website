@@ -3,12 +3,12 @@
   "name": "CodeB - Technology & Development",
   "icons": [
     {
-      "src": "code_B_Icone.png",
+      "src": "code_B_Icone.png?v=2",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "code_B_Icone.png",
+      "src": "code_B_Icone.png?v=2",
       "type": "image/png",
       "sizes": "512x512"
     }
